@@ -3,7 +3,8 @@ Hash.new
 end
 
 def actor
-
+creates a hash named actor whose key is a symbol :name and whose value is a string, 'Dwayne The Rock Johnson'" do
+        expect(actor[:name]).to eq("Dwayne The Rock Johnson")
 end
 
 def monopoly
