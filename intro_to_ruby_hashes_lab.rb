@@ -3,7 +3,8 @@ Hash.new
 end
 
 def actor
-actor = {:name => "Dwayne The Rock Johnbson"}
+#actor = {:name => "Dwayne The Rock Johnbson"}
+actor = {name: "Dwayne The Rock Johnbson"}
 end
 
 def monopoly
